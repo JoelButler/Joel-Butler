@@ -21,33 +21,57 @@ body {
 	font-family: 'Slabo 27px', serif;
 }
 
-.nav {
+.nav-left {
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
   z-index: 9999;
   width: 100%;
+  
+}
 
+.nav-left a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 14px 16px;
+    font-size: 1.5em;
+    font-weight:600;
+    position: absolute;
+    top: -5px;
+  
+}
+
+.nav-right {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+  width: 100%;
   background-color: #111;
   
 }
 
-.nav ul
+.nav-right ul
 {
     list-style-type: none;
     font-weight: 600;
+    letter-spacing: .075em;
     margin: 0;
     padding: 0;
 
 }
 
-.nav li
+.nav-right li
 {
-    float: left;
+    float: right;
 }
 
-.nav li a {
+.nav-right li a {
     display: block;
     color: white;
     text-align: center;
@@ -66,7 +90,7 @@ li a:hover:not(.active) {
 /* Contains the main content, limits its width, and centers the content */
 .container {
     margin:auto;
-	margin-top: 40px;
+	margin-top: px;
 	max-width: 66%;
 	
 	height: 100%;
