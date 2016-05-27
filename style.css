@@ -23,6 +23,7 @@ body {
 
 .nav ul
 {
+    overflow: hidden;
     list-style-type: none;
     font-family: 'Slabo 27px', serif;
     font-weight: 600;
