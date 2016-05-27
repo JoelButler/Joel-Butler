@@ -58,8 +58,6 @@ li a:hover:not(.active) {
 
 /* Contains the main content, limits its width, and centers the content */
 .container {
-        position:relative;
-    	top:auto;
 	margin: auto;
 	max-width: 66%;
 	
