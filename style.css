@@ -2,10 +2,24 @@
 @import url(http://fonts.googleapis.com/css?family=Slabo+27px);
 
 /* Reset margins and fill entire space */
-html, body, .container {
+html, body,.nav, .container {
 	height: 100%;
 	width: 100%;
 	margin: 0;
+}
+
+
+body {
+	/* Background image for the page */
+	background: #254463 url('background.jpg') no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	
+	/* Page color and font */
+	color: #FFF;
+	font-family: 'Slabo 27px', serif;
 }
 
 .nav ul {
@@ -48,26 +62,11 @@ html, body, .container {
     line-height: 50px;
     font-size: 1.4em;
   }
- 
-  /* Option 1 - Display Inline */
+
   .nav li {
     display: inline-block;
     margin-right: -4px;
   }
-
-body {
-	/* Background image for the page */
-	background: #254463 url('background.jpg') no-repeat center center fixed;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-	
-	/* Page color and font */
-	color: #FFF;
-	font-family: 'Slabo 27px', serif;
-}
-
 /* Contains the main content, limits its width, and centers the content */
 .container {
 	margin: auto;
