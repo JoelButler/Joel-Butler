@@ -46,6 +46,7 @@ body {
 }
 
 li a:hover:not(.active) {
+    opacity:0.6;
     background-color: #9c9c63;
 }
 
