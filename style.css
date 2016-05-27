@@ -70,8 +70,10 @@ li a:hover:not(.active) {
 
 /* Another container for adding a darkened background and making it fill the entire height */
 .container .inner {
+    position: fixed;
+    top: 48px;
 	height: 100%;
-	background: rgba(0, 0, 0, 0.6);
+	background: rgba(0, 0, 0, 0.5);
 	display: table-row;  
 	text-shadow: 0px 0px 12px rgba(0, 0, 0, .2);
 }
@@ -127,3 +129,4 @@ i.fa:hover {
 		font-size: 2.5em;
 	}
 }
+
