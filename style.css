@@ -21,6 +21,13 @@ body {
 	font-family: 'Slabo 27px', serif;
 }
 
+.nav ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
 /* Contains the main content, limits its width, and centers the content */
 .container {
 	margin: auto;
