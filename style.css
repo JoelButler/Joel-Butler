@@ -40,7 +40,7 @@ body {
 
 .nav li a {
     display: block;
-    color: #666;
+    color: #111;
     text-align: center;
     padding: 14px 16px;
 }
@@ -50,7 +50,7 @@ li a:hover:not(.active) {
 }
 
 .active {
-    background-color: #4CAF50;
+    background-color: #FFF;
 }
 
 /* Contains the main content, limits its width, and centers the content */
