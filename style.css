@@ -2,7 +2,7 @@
 @import url(http://fonts.googleapis.com/css?family=Slabo+27px);
 
 /* Reset margins and fill entire space */
-html, body,.nav, .container {
+html, body, .nav, .container {
 	height: 100%;
 	width: 100%;
 	margin: 0;
@@ -24,8 +24,7 @@ body {
 
 .nav ul {
   list-style: none;
-  background-color: #444;
-  text-align: center;
+  text-align: left;
   padding: 0;
   margin: 0;
 }
