@@ -43,6 +43,16 @@ body {
     padding: 14px 16px;
 }
 
+.nav li a:hover:not(.active) 
+{
+    background-color: #ddd;
+}
+.nav li a.active
+{
+    color: white;
+    background-color: #4CAF50;
+}
+
 /* Contains the main content, limits its width, and centers the content */
 .container {
 	margin: auto;
