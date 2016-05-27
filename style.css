@@ -56,11 +56,14 @@ body {
 }
 
 li a:hover:not(.active) {
-    background-color: #111;
+    background-color: #333;
+    height: 15px;
+    
 }
 
 .active {
     background-color: #c2c2a3;
+    height: 15px;
 }
 
 /* Contains the main content, limits its width, and centers the content */
