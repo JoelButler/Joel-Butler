@@ -31,6 +31,17 @@ body {
     width: 100%;
 }
 
+.nav li
+{
+    float: left;
+}
+
+.nav li a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+}
 
 /* Contains the main content, limits its width, and centers the content */
 .container {
