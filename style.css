@@ -50,7 +50,7 @@ li a:hover:not(.active) {
 }
 
 .active {
-    background-color: rgba(0, 0.6, 0, 0);
+    background-color: #c2c2a3;
 }
 
 /* Contains the main content, limits its width, and centers the content */
