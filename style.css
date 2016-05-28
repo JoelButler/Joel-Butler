@@ -21,7 +21,7 @@ body {
 	font-family: 'Slabo 27px', serif;
 }
 
-.nav {
+.navigation {
   position: fixed;
   top: 0;
   left: 0;
@@ -32,7 +32,7 @@ body {
   background-color: #111;
 }
 
-.nav ul {
+.navigation ul{
     list-style-type: none;
     font-weight: 600;
     letter-spacing: .075em;
@@ -40,28 +40,25 @@ body {
     padding: 0;
 }
 
-.nav li {
+.navigation li {
     float: right;
 }
 
-.nav li a {
+.navigation li a {
     display: block;
     color: white;
     text-align: center;
     text-decoration: none;
+    transition:0.5s;
     padding: 14px 16px;
 }
 
-.nav b {
+.navigation a1 {
   float:left;
   font-size:1.75em;
   margin-top: 5px;
   margin-left: 10px;
 }
-
-.nav c {
-  visibility:hidden;
-  }
 
 li a:hover:not(.active) {
     background-color: #333;
@@ -120,7 +117,11 @@ i.fa:hover {
 	color: #c2c2a3;
 }
 
-.footer-links{
+nav ul li.icon{
+  display:none
+}
+
+.footer-right{
   position: fixed;
   bottom: 0;
   right: 0;
@@ -128,7 +129,7 @@ i.fa:hover {
   margin-right: 10px;
 }
 
-.footer-mail{
+.footer-left{
   position: fixed;
   bottom: 0;
   left: 0;
@@ -136,7 +137,7 @@ i.fa:hover {
   margin-left: 10px;
 }
 
-.footer-copy{
+.footer-bar{
   position: fixed;
   bottom: 0;
   left: 0;
@@ -150,7 +151,7 @@ i.fa:hover {
 }
 
 /* Make the site look better and fit the page on mobile */
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 680px) {
 	h1 {
 		font-size: 2em;
 	}
@@ -178,14 +179,9 @@ i.fa:hover {
 		padding: 0;
 		min-width: 320;
 	}
-  
-    .nav {
-		position:fixed;
-		min-height: 40px;
-	}
-  
-	.nav ul {
-		width: 110px;
+
+	.navigation ul {
+		width: 100px;
 		padding: 0px ;
 		position: absolute;
 		top: 0;
@@ -193,23 +189,16 @@ i.fa:hover {
 		right: 0;
 	}
   
-	.nav li {
-		display:none;
-        margin:0;
-        
+	.navigation li {
+	    display:none;
+        width: 100px;
 	}
   
-	.nav li active {
-		display: block; /* show only current <li> item */
-        margin:0; 
-	}
-  
-	.nav li a {
-		background: #111;
-		color: white;
-      
-	}
-	.nav ul:hover li {
+  .navigation li.icon{
+    display: block;
+  }
+
+	.navigation.responsive li {
 	    list-style-type:none;
         margin:0;
         padding: 0;
@@ -220,9 +209,19 @@ i.fa:hover {
 		margin:0px;
 	}
   
-	.nav ul:hover .active {
-		background-color: #c2c2a3;
+    .navigation.responsive li.icon{
+    display:none;
+    }
+  
+  
+  
+    .footer-left i.fa {
+		font-size: 1em;
 	}
+    .footer-right i.fa{
+        font-size: 1em;
+    }
+  }
 }
 
 
