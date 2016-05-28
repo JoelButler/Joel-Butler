@@ -71,14 +71,12 @@ li a:hover:not(.active) {
 /* Contains the main content, limits its width, and centers the content */
 .container {
     margin:auto;
-	margin-top: 48px;
-	max-width: 66%;
-	
-	height: 100%;
-	width: 100%;
-	
-	text-align: center;
-	display: table;
+    margin-top: 48px;
+    max-width: 66%;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    display: table;
 }
 
 /* Another container for adding a darkened background and making it fill the entire height */
@@ -108,11 +106,12 @@ p {
 
 /* Styling for social icons */
 i.fa {
-	padding: 0 8px;
-	color: #FFF;
-	transition: all 0.3s ease 0s;
-	-webkit-transition: all 0.3s ease 0s;
+   padding: 0 8px;
+   color: #FFF;
+   transition: all 0.3s ease 0s;
+   -webkit-transition: all 0.3s ease 0s;
 }
+
 i.fa:hover {
 	color: #c2c2a3;
 }
@@ -161,67 +160,65 @@ nav ul li.icon{
 	p {
 		font-size: 1em;
 	}
-	.container {
-    margin:auto;
+	
+   .container {
+   	margin:auto;
 	margin-top: 48px;
 	max-width: 90%;
-	
 	height: 100%;
 	width: 100%;
-	
 	text-align: center;
 	display: table;
-	}
+   	
+   }
   
-	.container .inner .content {
-		margin: 0 16px;
+   .container .inner .content {
+	margin: 0 16px;
         margin-top: 48px;
-		padding: 0;
-		min-width: 320;
-	}
+	padding: 0;
+	min-width: 320;
+   }
 
-	.navigation ul {
-		width: 100px;
-		padding: 0px ;
-		position: absolute;
-		top: 0;
+    .navigation ul {
+	width: 100px;
+	padding: 0px ;
+	position: absolute;
+	top: 0;
         height: 48px;
-		right: 0;
-	}
-  
-	.navigation li {
-	    display:none;
-        width: 100px;
-	}
-  
-  .navigation li.icon{
-    display: block;
-  }
+	right: 0;
+    }
 
-	.navigation.responsive li {
-	    list-style-type:none;
+  .navigation li {
+   	display:none;
+        width: 100px;
+   	
+  }
+	
+  .navigation li.icon{
+  	display: block;
+  }
+  
+  .navigation.responsive li {
+	list-style-type:none;
         margin:0;
         padding: 0;
         width 100px;
-		display: block;
+	display: block;
         width:110px;
         background-color: #111;
-		margin:0px;
-	}
-  
-    .navigation.responsive li.icon{
-    display:none;
-    }
-  
-  
-  
-    .footer-left i.fa {
-		font-size: 1em;
-	}
-    .footer-right i.fa{
-        font-size: 1em;
-    }
+	margin:0px;
   }
+  
+  .footer-left i.fa {
+  	font-size: 1em;
+  	
+  }
+  
+  .footer-right i.fa {
+  	font-size: 1em;
+  	
+  }
+}
 }
 
 
