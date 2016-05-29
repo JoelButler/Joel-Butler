@@ -129,11 +129,11 @@ h1 {
 }
 h2 {
 	font-size: 1.8em;
-  text-align:justify
+  text-align:justify;
 }
 p {
 	font-size: 1.1em;
-  text-align:center
+  text-align:justify;
 }
 
 /* Styling for social icons */
