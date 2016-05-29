@@ -188,6 +188,8 @@ nav ul li.icon{
 
   .container {
 		max-width: 90%;
+        margin:auto;
+        margin-top:40px;
 	}
 	.container .inner .content {
 		margin: 0 16px;
