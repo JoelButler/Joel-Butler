@@ -88,8 +88,8 @@ li a:hover:not(.active) {
 }
 
 .article {
-    margin:auto;
-	margin-bottom: 48px;
+    margin-top: 24;
+	margin-bottom: 24px;
 	max-width: 100%;
 	width: 100%;
 	text-align: center;
