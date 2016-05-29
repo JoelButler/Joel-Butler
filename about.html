@@ -12,40 +12,54 @@
 </head>
   
 <body>    
-  
   <header>
-   <nav class="nav">
+   <nav class="navigation">
       <ul>
         <li class="contact"><a href="contact">Contact</a></li>
-        <li class="about"><a class="active" href="about">About</a></li>
+        <li class="about"><a class="active"href="about">About</a></li>
         <li class="projects"><a href="projects">Projects</a></li>
-        <li class="skills"><a href="skills">Skills</a></li>
-        <li class="home"><a href="/">Home</a></li>
+        <li class="skills"><a  href="skills">Skills</a></li>
+        <li class="home"><a href="/">Home</a></li> 
+        <li class="icon"><a href="javascript:void(0);" onclick="collapseFunction()">
+            <i class="fa fa-server fa-lg"></i></a><li>
       </ul>
-     <b> JOEL BUTLER </b>
+     <a1> JOEL BUTLER</a1>
   </header>  
   
   <section class="container">
-    
 	<div class="inner">
-      
       <div class="content">
-	      <h1>Hello, I'm Joel Butler.</h1>
-	      <h2>I am a Mechanical Engineering Student attending the University of Victoria.  
-            <p> I like solving problems and making my ideas come to life.</P>
-        </h2>
-	      <p>
-	      I will talk about myself here.
-	      </p>
+	      <h1>About</h1>
+          <h2> Learn some things about me! </h2>
+       </div>
+    </div>
+  </section>
+       
+   <footer class="footer-right">
+      	  <a href="http://instagram.com/jcwbutts"><i class="fa fa-instagram fa-2x"></i></a>
+	  <a href="http://youtube.com/"><i class="fa fa-youtube-square fa-2x"></i></a>
+	  <a href="https://ca.linkedin.com/in/joel-butler-2a0b9ab2"><i class="fa fa-linkedin-square fa-2x"></i></a>
+      <a href="https://www.facebook.com/JoelCWButler"><i class="fa fa-facebook-square fa-2x"></i></a>
+   </footer>
     
-	  <a href="http://instagram.com/jcwbutts"><i class="fa fa-instagram fa-4x"></i></a>
-	  <a href="http://youtube.com/"><i class="fa fa-youtube fa-4x"></i></a>
-	  <a href="https://ca.linkedin.com/in/joel-butler-2a0b9ab2"><i class="fa fa-linkedin fa-4x"></i></a>
-	</div>
-      
+   <footer class="footer-left">
+      <a href="mailto:joel.c.butler@gmail.com"><i class="fa fa-envelope-o fa-2x"></i></a>
+   </footer>
+    
+    <footer class="footer-bar">
+      Copyright <a <i class="fa fa-copyright fa-1x"><a> 2016 Joel Butler Design. All Rights Reserved.
+    </footer>
   </div>
     
   </section>
+    
+    
+<script>
+function collapseFunction() {
+    document.getElementsByClassName("navigation")[0].classList.toggle("responsive");
+}
+</script>
+    
 </body>
 </html>
 
