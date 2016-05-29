@@ -203,6 +203,35 @@ nav ul li.icon{
 		padding: 0;
 		min-width: 320;
 	}
+  
+  .article {
+    margin-top: 24;
+	margin-bottom: 24px;
+	max-width: 100%;
+	width: 100%;
+	text-align: center;
+	display: table;
+    border-top-style: solid;
+    border-bottom-style:solid;
+    border-color:white;
+    border-width:2px;
+    background: rgba(0, 0, 0, 0.5);
+}
+.article .inner {
+	display: table-row;  
+	text-shadow: 0px 0px 12px rgba(0, 0, 0, .2);
+}
+
+.article .inner .content{
+    margin: 12px 0px 0px 0px;
+	padding: 0 12px 32px 12px;
+}
+
+/* Final container for containing the page content, applies padding to the content */
+.container .inner .content {
+	margin: 0 48px;
+	padding: 0 32px 32px 24px;
+}
 
 	.navigation ul {
 		width: 100px;
