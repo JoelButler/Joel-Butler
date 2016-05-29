@@ -110,11 +110,6 @@ li a:hover:not(.active) {
 	padding: 0 32px 32px 24px;
 }
 
-.article .inner .image{
-    margin: 0px 24px 24px 24px;
-	padding: 0px 0px 0px 0px;
-}
-
 /* Final container for containing the page content, applies padding to the content */
 .container .inner .content {
 	margin: 0 48px;
