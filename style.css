@@ -69,7 +69,7 @@ li a:hover:not(.active) {
 }
 
 .container {
-	margin: auto;
+	margin-top: 48px;
 	max-width: 66%;
 	
 	height: 100%;
