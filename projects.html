@@ -12,40 +12,63 @@
 </head>
   
 <body>    
-  
   <header>
-   <nav class="nav">
+   <nav class="navigation">
       <ul>
         <li class="contact"><a href="contact">Contact</a></li>
         <li class="about"><a href="about">About</a></li>
-        <li class="projects"><a class="active" href="projects">Projects</a></li>
+        <li class="projects"><a href="projects">Projects</a></li>
         <li class="skills"><a href="skills">Skills</a></li>
-        <li class="home"><a href="/">Home</a></li>
+        <li><a class="active" href="/">Home</a></li> 
+        <li class="icon"><a href="javascript:void(0);" onclick="collapseFunction()">
+            <i class="fa fa-server fa-lg"></i></a><li>
       </ul>
-     <b> JOEL BUTLER </b>
+     <a1> JOEL BUTLER</a1>
   </header>  
-  
-  <section class="container">
     
-	<div class="inner">
-      
-      <div class="content">
-	      <h1>Hello, I'm Joel Butler.</h1>
-	      <h2>I am a Mechanical Engineering Student attending the University of Victoria.  
-            <p> I like solving problems and making my ideas come to life.</P>
-        </h2>
-	      <p>
-	      I will be posting projects here.
-	      </p>
-    
-	  <a href="http://instagram.com/jcwbutts"><i class="fa fa-instagram fa-4x"></i></a>
-	  <a href="http://youtube.com/"><i class="fa fa-youtube fa-4x"></i></a>
-	  <a href="https://ca.linkedin.com/in/joel-butler-2a0b9ab2"><i class="fa fa-linkedin fa-4x"></i></a>
+  <section class="article">
+     <div class="inner">
+        <div class="content">
+           <h1>Origami Koi</h1>
+				<a href="/images/Koi.JPG"><img style="float:right; margin: 0px 0px 15px 25px;" src="/images/Koi.JPG" alt="Origami Koi" width="150" height="150"></a>
+				<p> Is it a skill? Im not sure. It was actually really close to being a huge waste of time. While exploring Michaels, 
+				i stumbled upon an origami book by Won Park which contained an incredibly realistic dollar bill Koi fish. </p>
+            <p>As a child, my sister and i folded countless paper cranes. She even folded around 2000 miniature cranes as some sort of 
+            sick twisted mural art project. Each crane takes about a minute to fold. In anycase, i absolutley had to try my hands 
+			at this a koi fish! How hard could it be? </p>
+            <a href="files/dollarkoifish.pdf"><img style="float: left; margin: 0px 25px 0px 0px;" src="images/koiinstructions.JPG" width="150" height="150"></a>
+           <p>Well, for two hours of fun (or pain depending on how you look at it) all you need is an American dollar, two hands, and a little bit of patience. 
+		   There two distinct moments where i was close to ripping the dollar into a million pieces. Once during steps 15 through 30 which involved 
+		   45 minutes or so of pre-folding. And once again during step 38 because how am i supposed to understand whats happening there?! </p>
+		</div>
 	</div>
-      
+ </section>
+       
+   <footer class="footer-right">
+      	  <a href="http://instagram.com/jcwbutts"><i class="fa fa-instagram fa-2x"></i></a>
+	  <a href="http://youtube.com/"><i class="fa fa-youtube-square fa-2x"></i></a>
+	  <a href="https://ca.linkedin.com/in/joel-butler-2a0b9ab2"><i class="fa fa-linkedin-square fa-2x"></i></a>
+      <a href="https://www.facebook.com/JoelCWButler"><i class="fa fa-facebook-square fa-2x"></i></a>
+   </footer>
+    
+   <footer class="footer-left">
+      <a href="mailto:joel.c.butler@gmail.com"><i class="fa fa-envelope-o fa-2x"></i></a>
+   </footer>
+    
+    <footer class="footer-bar">
+      Copyright <a <i class="fa fa-copyright fa-1x"><a> 2016 Joel Butler Design. All Rights Reserved.
+    </footer>
   </div>
     
   </section>
+    
+    
+<script>
+function collapseFunction() {
+    document.getElementsByClassName("navigation")[0].classList.toggle("responsive");
+}
+</script>
+    
 </body>
 </html>
 
