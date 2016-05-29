@@ -72,6 +72,7 @@ li a:hover:not(.active) {
 	margin-top: 48px;
 	max-width: 66%;
 	margin:auto;
+	padding-top:20px;
 	
 	height: 100%;
 	width: 100%;
