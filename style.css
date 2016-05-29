@@ -106,8 +106,9 @@ li a:hover:not(.active) {
 }
 
 .article .inner .content{
-    margin: 0 48px;
+    margin: 48px 48px 48px 48px;
 	padding: 0 32px 32px 24px;
+  background-color: white;
 }
 
 /* Final container for containing the page content, applies padding to the content */
