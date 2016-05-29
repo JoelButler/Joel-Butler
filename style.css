@@ -68,23 +68,29 @@ li a:hover:not(.active) {
     background-color: #c2c2a3;
 }
 
-/* Contains the main content, limits its width, and centers the content */
 .container {
-    margin:auto;
-	margin-top: 48px;
-	max-width: 75%;
+	margin: auto;
+	max-width: 66%;
 	
+	height: 100%;
 	width: 100%;
 	
+	text-align: center;
 	display: table;
 }
 
 /* Another container for adding a darkened background and making it fill the entire height */
 .container .inner {
 	height: 100%;
-	background: rgba(0, 0, 0, 0.5);
+	background: rgba(0, 0, 0, 0.6);
 	display: table-row;  
 	text-shadow: 0px 0px 12px rgba(0, 0, 0, .2);
+}
+
+/* Final container for containing the page content, applies padding to the content */
+.container .inner .content {
+	margin: 0 48px;
+	padding: 0 32px 32px 24px;
 }
 
 .article {
@@ -107,12 +113,6 @@ li a:hover:not(.active) {
 
 .article .inner .content{
     margin: 48px 48px 48px 48px;
-	padding: 0 32px 32px 24px;
-}
-
-/* Final container for containing the page content, applies padding to the content */
-.container .inner .content {
-	margin: 0 48px;
 	padding: 0 32px 32px 24px;
 }
 
@@ -185,21 +185,12 @@ nav ul li.icon{
 	p {
 		font-size: 1em;
 	}
-	.container {
-    margin:auto;
-	margin-top: 48px;
-	max-width: 90%;
-	
-	height: 100%;
-	width: 100%;
-	
-	text-align: center;
-	display: table;
+
+  .container {
+		max-width: 90%;
 	}
-  
 	.container .inner .content {
 		margin: 0 16px;
-        margin-top: 0px;
 		padding: 0;
 		min-width: 320;
 	}
