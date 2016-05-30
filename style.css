@@ -99,14 +99,10 @@ body{
 
 li a:hover:not(.active) {
     background-color: #333;
-    opacity:0.6;
-    
 }
 
 .active {
     background-color: #c2c2a3;
-    opacity:0.6;
-    
 }
 
 .container {
