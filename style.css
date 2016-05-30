@@ -14,7 +14,7 @@ body{
 	font-family: 'Slabo 27px', serif;	
 }
 
-.skills{
+.projects{
 	/* Background image for the page */
 	background: #254463 url('../images/checkcanyon.jpg') no-repeat center center fixed;
 	-webkit-background-size: cover;
@@ -32,7 +32,7 @@ body{
 	background-size: cover;
 }
 
-.projects{
+.skills{
 	/* Background image for the page */
 	background: #254463 url('../images/garibaldi.jpg') no-repeat center center fixed;
 	-webkit-background-size: cover;
