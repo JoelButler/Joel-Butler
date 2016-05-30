@@ -9,9 +9,27 @@ html, body, .container {
 }
 
 body{
-		/* Page color and font */
+	/* Page color and font */
 	color: #FFF;
 	font-family: 'Slabo 27px', serif;	
+}
+
+.home{
+	/* Background image for the page */
+	background: #254463 url('../images/background.jpg') no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.skills{
+	/* Background image for the page */
+	background: #254463 url('../images/checkcanyon.jpg') no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
 
 .projects{
@@ -31,16 +49,6 @@ body{
 	-o-background-size: cover;
 	background-size: cover;
 }
-
-.home{
-	/* Background image for the page */
-	background: #254463 url('../images/background.jpg') no-repeat center center fixed;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-}
-
 
 .navigation {
   position: fixed;
