@@ -8,7 +8,7 @@ html, body, .container {
 	margin: 0;
 }
 
-.body .skills{
+body .skills{
 	/* Background image for the page */
 	background: #254463 url('../images/checkcanyon.jpg') no-repeat center center fixed;
 	-webkit-background-size: cover;
