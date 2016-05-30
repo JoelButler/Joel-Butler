@@ -31,28 +31,9 @@ body{
 	-o-background-size: cover;
 	background-size: cover;
 }
-
-.projects{
-	/* Background image for the page */
-	background: url('../images/garibaldilake.jpg') no-repeat center center fixed;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-}
-
 .about{
 	/* Background image for the page */
 	background: #254463 url('../images/lions.jpg') no-repeat center center fixed;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-}
-
-.contact{
-	/* Background image for the page */
-	background: #254463 url('../images/sunrise.jpg') no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
