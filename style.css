@@ -50,6 +50,15 @@ body{
 	background-size: cover;
 }
 
+.contact{
+	/* Background image for the page */
+	background: #254463 url('../images/highbird.jpg') no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
 .navigation {
   position: fixed;
   top: 0;
