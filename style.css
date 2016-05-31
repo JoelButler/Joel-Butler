@@ -164,7 +164,11 @@ h1 {
 }
 h2 {
 	font-size: 1.8em;
-  text-align:justify;
+  text-align:left;
+}
+h3 {
+  font-size: 1.2em;
+  text-align: left;
 }
 p {
 	font-size: 1.1em;
