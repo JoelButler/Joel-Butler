@@ -147,12 +147,13 @@ li a:hover:not(.active) {
 
 .article {
     margin-top: 24;
-	margin-bottom: 24px;
-    margin:auto;
-	max-width: 66%;
-	width: 100%;
-	text-align: center;
-	display: table;
+    margin-bottom: 24px;
+    margin:auto;	
+    max-width: 66%;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: table;
     border-top-style: solid;
     border-bottom-style:solid;
     border-color:white;
