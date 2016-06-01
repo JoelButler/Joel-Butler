@@ -10,7 +10,6 @@ html, body, .container {
 
 body{
 	/* Page color and font */
-	overflow:hidden;
 	color: #FFF;
 	font-family: 'Slabo 27px', serif;	
 }
@@ -21,6 +20,18 @@ body{
   width: 300px;
   -webkit-mask-image: url(../images/namemasksmall.svg);
   mask-image: url(../images/namemasksmall.svg);
+  -webkit-mask-position: center center;
+  mask-position: center center;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+}
+
+.faceimg {
+  margin: 20px auto;
+  display: block;
+  width: 75ovpx;
+  -webkit-mask-image: url(../images/stencil.svg);
+  mask-image: url(../images/stencil.svg);
   -webkit-mask-position: center center;
   mask-position: center center;
   -webkit-mask-repeat: no-repeat;
