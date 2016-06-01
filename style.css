@@ -26,18 +26,6 @@ body{
   mask-repeat: no-repeat;
 }
 
-.faceimg {
-  margin: 20px auto;
-  display: block;
-  width: 75ovpx;
-  -webkit-mask-image: url(../images/stencilsmall.svg);
-  mask-image: url(../images/stencilsmall.svg);
-  -webkit-mask-position: center center;
-  mask-position: center center;
-  -webkit-mask-repeat: no-repeat;
-  mask-repeat: no-repeat;
-}
-
 .home{
 	/* Background image for the page */
 	background: #254463 url('../images/checkcanyon.jpg') no-repeat center center fixed;
