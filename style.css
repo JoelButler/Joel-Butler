@@ -17,7 +17,7 @@ body{
 .nameimg {
   margin: 20px auto;
   display: block;
-  width: 400px;
+  width: 300px;
   -webkit-mask-image: url(../images/namemask.svg);
   mask-image: url(../images/namemask.svg);
   -webkit-mask-position: center center;
