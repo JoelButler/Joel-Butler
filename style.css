@@ -18,8 +18,8 @@ body{
   margin: 20px auto;
   display: block;
   width: 300px;
-  -webkit-mask-image: url(../images/namemask.svg);
-  mask-image: url(../images/namemask.svg);
+  -webkit-mask-image: url(../images/namemasksmall.svg);
+  mask-image: url(../images/namemasksmall.svg);
   -webkit-mask-position: center center;
   mask-position: center center;
   -webkit-mask-repeat: no-repeat;
