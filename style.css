@@ -14,6 +14,19 @@ body{
 	font-family: 'Slabo 27px', serif;	
 }
 
+.nameimg {
+  margin: 20px auto;
+  display: block;
+  width: 100%;
+  height: 400px;
+  -webkit-mask-image: url(../images/namemask.png);
+  mask-image: url(../images/namemask.png);
+  -webkit-mask-position: center center;
+  mask-position: center center;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+}
+
 .home{
 	/* Background image for the page */
 	background: #254463 url('../images/background.jpg') no-repeat center center fixed;
