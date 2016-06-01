@@ -15,10 +15,9 @@ body{
 }
 
 .nameimg {
-  margin: 50px auto;
+  margin: 20px auto;
   display: block;
-  width: 50%;
-  height: 50%;
+  width: 400px;
   -webkit-mask-image: url(../images/namemask.svg);
   mask-image: url(../images/namemask.svg);
   -webkit-mask-position: center center;
@@ -120,7 +119,7 @@ li a:hover:not(.active) {
 }
 
 .container {
-	margin-top: 48px;
+	margin-top: 60px;
 	max-width: 66%;
 	margin:auto;
 	padding-top:20px;
