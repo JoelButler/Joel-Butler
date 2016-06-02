@@ -236,6 +236,11 @@ nav ul li.icon{
   float: right;
 }
 
+.formcontainer{
+  max-width:500px;
+  margin:auto;
+}
+
 .btn {
   font-size: 1.0625em;
   display: inline-block;
