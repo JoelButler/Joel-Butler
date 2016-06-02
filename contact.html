@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Joel Butler - Personal Website</title>
+  <title>Contact Joel Butler</title>
   <meta name="viewport" content="width=device-width, initial-scale=1 height=device-height, initial-scale=1, maximum-scale=1, user-scalable=0">
   <meta name="description" content="Personal Website">
   <meta name="author" content="Joel Butler">
@@ -29,9 +29,40 @@
   <section class="container">
 	<div class="inner">
       <div class="content">
-	      <h1>Contact</h1>
-	      <h2> <center>For now, here is my email address.</center> </h2>
-          <p><center><a href="mailto:joel.c.butler@gmail.com"><i class="fa fa-envelope-o fa-3x"></i></a></center></p>
+	      <h1>Contact Me</h1>
+        <h3><center> Fill out the form below to contact me!</center></h3>
+        <br>
+      <div class="contactform">
+      <div class="row body">
+      <form action="#">
+        <ul>
+          <li>
+            <p class="left">
+              <label for="first_name">First name *</label>
+              <input type="text" name="first_name"/>
+            </p>
+            <p class="pull-right">
+              <label for="last_name">Last name</label>
+              <input type="text" name="last_name"/>      
+            </p>
+          </li>
+
+          <li>
+            <p>
+              <label for="email">Email * </label>
+              <input type="email" name="email"/>
+            </p>
+          </li>        
+          <li>
+            <label for="comments"><h3>Comments *</h3></label>
+            <textarea cols="46" rows="8" name="comments"></textarea>
+          </li>
+
+          <li>
+            <input class="btn submit" type="submit" value="Submit" />
+          </li>
+        </ul>
+      </form>       
        </div>
     </div>
   </section>
