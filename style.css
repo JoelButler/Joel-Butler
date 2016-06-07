@@ -18,7 +18,7 @@ body{
 width:100%}
 
 .solidworkscell {
-  background-image:url(../images/solidworks);
+  background:url(../images/solidworks);
     display: table-cell;
     border: 1px solid #809e9c;
     padding: 30px 30px;
