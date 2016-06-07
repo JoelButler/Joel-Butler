@@ -58,7 +58,7 @@ width:100%}
 }
 
 .arduinocell {
-  background-image:url(../images/arduino);
+  background:url(../images/arduino.jpg);
     display: table-cell;
     border: none;
     padding: 30px 30px;
