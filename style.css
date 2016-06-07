@@ -17,7 +17,8 @@ body{
     display: table;
 width:100%}
 
-.cell {
+.solidworkscell {
+  background-image:url(images/solidworks);
     display: table-cell;
     border: 1px solid #809e9c;
     padding: 30px 30px;
@@ -26,6 +27,55 @@ width:100%}
   font-weight:600;
     text-align:center;}
 
+.autocadcell {
+  background-image:url(images/autocad);
+    display: table-cell;
+    border: 1px solid #809e9c;
+    padding: 30px 30px;
+    width: 33%;
+    font-size: 1.8em;
+  font-weight:600;
+    text-align:center;}
+
+.htmlcsscell {
+  background-image:url(images/htmlcss);
+    display: table-cell;
+    border: 1px solid #809e9c;
+    padding: 30px 30px;
+    width: 33%;
+    font-size: 1.8em;
+  font-weight:600;
+    text-align:center;}
+
+.arduinocell {
+  background-image:url(images/arduino);
+    display: table-cell;
+    border: 1px solid #809e9c;
+    padding: 30px 30px;
+    width: 33%;
+    font-size: 1.8em;
+  font-weight:600;
+    text-align:center;}
+
+.drawingcell {
+  background-image:url(images/drawing);
+    display: table-cell;
+    border: 1px solid #809e9c;
+    padding: 30px 30px;
+    width: 33%;
+    font-size: 1.8em;
+  font-weight:600;
+    text-align:center;}
+
+.woodworkcell {
+  background-image:url(images/woodwork);
+    display: table-cell;
+    border: 1px solid #809e9c;
+    padding: 30px 30px;
+    width: 33%;
+    font-size: 1.8em;
+  font-weight:600;
+    text-align:center;}
 
 .gutter {
     display: table-cell;
