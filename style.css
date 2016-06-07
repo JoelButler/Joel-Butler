@@ -29,7 +29,9 @@ width:100%}
     height: 200px;
     font-size: 1.8em;
   font-weight:600;
-    text-align:center;}
+    text-align:center;
+	vertical-align: middle;
+}
 
 .autocadcell {
   background-image:url(../images/autocad);
@@ -39,7 +41,9 @@ width:100%}
     width: 33%;
     font-size: 1.8em;
   font-weight:600;
-    text-align:center;}
+    text-align:center;
+	vertical-align: middle;
+}
 
 .htmlcsscell {
   background-image:url(../images/htmlcss);
@@ -49,7 +53,9 @@ width:100%}
     width: 33%;
     font-size: 1.8em;
   font-weight:600;
-    text-align:center;}
+    text-align:center;
+	vertical-align: middle;
+}
 
 .arduinocell {
   background-image:url(../images/arduino);
@@ -59,7 +65,9 @@ width:100%}
     width: 33%;
     font-size: 1.8em;
   font-weight:600;
-    text-align:center;}
+    text-align:center;
+	vertical-align: middle;
+}
 
 .drawingcell {
   background-image:url(../images/drawing);
@@ -69,7 +77,9 @@ width:100%}
     width: 33%;
     font-size: 1.8em;
   font-weight:600;
-    text-align:center;}
+    text-align:center;
+	vertical-align: middle;
+}
 
 .woodworkcell {
   background-image:url(../images/woodwork);
@@ -79,7 +89,9 @@ width:100%}
     width: 33%;
     font-size: 1.8em;
   font-weight:600;
-    text-align:center;}
+    text-align:center;
+	vertical-align: middle;
+}
 
 .gutter {
     display: table-cell;
