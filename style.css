@@ -19,6 +19,9 @@ width:100%}
 
 .solidworkscell {
   background:url(../images/solidworks.jpg);
+  background-size:     cover;
+    background-repeat:   no-repeat;
+    background-position: center center;
     display: table-cell;
     border: 1px solid #809e9c;
     padding: 30px 30px;
