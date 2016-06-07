@@ -18,7 +18,7 @@ body{
 width:100%}
 
 .solidworkscell {
-  background-image:url(images/solidworks);
+  background-image:url(../images/solidworks);
     display: table-cell;
     border: 1px solid #809e9c;
     padding: 30px 30px;
@@ -28,7 +28,7 @@ width:100%}
     text-align:center;}
 
 .autocadcell {
-  background-image:url(images/autocad);
+  background-image:url(../images/autocad);
     display: table-cell;
     border: 1px solid #809e9c;
     padding: 30px 30px;
@@ -38,7 +38,7 @@ width:100%}
     text-align:center;}
 
 .htmlcsscell {
-  background-image:url(images/htmlcss);
+  background-image:url(../images/htmlcss);
     display: table-cell;
     border: 1px solid #809e9c;
     padding: 30px 30px;
@@ -48,7 +48,7 @@ width:100%}
     text-align:center;}
 
 .arduinocell {
-  background-image:url(images/arduino);
+  background-image:url(../images/arduino);
     display: table-cell;
     border: 1px solid #809e9c;
     padding: 30px 30px;
@@ -58,7 +58,7 @@ width:100%}
     text-align:center;}
 
 .drawingcell {
-  background-image:url(images/drawing);
+  background-image:url(../images/drawing);
     display: table-cell;
     border: 1px solid #809e9c;
     padding: 30px 30px;
@@ -68,7 +68,7 @@ width:100%}
     text-align:center;}
 
 .woodworkcell {
-  background-image:url(images/woodwork);
+  background-image:url(../images/woodwork);
     display: table-cell;
     border: 1px solid #809e9c;
     padding: 30px 30px;
