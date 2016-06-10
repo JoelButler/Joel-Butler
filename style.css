@@ -734,6 +734,9 @@ form textarea {
 }
 
 @media only screen and (max-width: 600px) {
+	h1 {
+		font-size: 1.5em;
+    }
   
 .container {
 	max-width: 90%;
@@ -802,6 +805,9 @@ padding: 2px 2px;
 }
 
 @media only screen and (max-width: 400px) {
+	h1 {
+		font-size: 1.3em;
+    }
   
 .container {
 	max-width: 90%;
