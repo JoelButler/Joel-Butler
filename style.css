@@ -17,7 +17,7 @@ body{
 .nameimg img{
   margin: auto;
   display: block;
-  width: 50%;
+  width: 70%;
 }
 
 .tablecontainer 
@@ -814,7 +814,7 @@ padding: 2px 2px;
 
 @media only screen and (max-width: 400px) {
 	h1 {
-		font-size: 1em;
+		font-size: 1.2em;
 	}
 	h2 {
 		font-size: 0.9em;
