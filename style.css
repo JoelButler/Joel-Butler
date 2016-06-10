@@ -14,6 +14,12 @@ body{
 	font-family: 'Slabo 27px', serif;	
 }
 
+.nameimg img{
+  margin: auto;
+  display: block;
+  width: 50%;
+}
+
 .tablecontainer 
   {
     display: table;
@@ -145,16 +151,6 @@ a:hover {
     color: #333;
     background-color: transparent;
     text-decoration: none;
-}
-
-.nameimg {
-  margin: 20px auto;
-  display: block;
-}
-
-.nameimg .img{
-  width:100%;
-  height:auto;
 }
 
 .home{
@@ -449,15 +445,6 @@ form textarea {
 }
 
 @media only screen and (max-width: 1400px) {
-.nameimg {
-  margin: 20px auto;
-  display: block;
-}
-
-.nameimg .img{
-  width:80%;
-  height:auto;
-}
 
 .container {
 	max-width: 85%;
@@ -526,15 +513,7 @@ form textarea {
 }
 
 @media only screen and (max-width: 1075px) {
-.nameimg {
-  margin: 20px auto;
-  display: block;
-}
-
-.nameimg .img{
-  width:70%;
-  height:auto;
-}
+  
 .container {
 	max-width: 85%;
     margin:auto;
@@ -614,15 +593,6 @@ form textarea {
 	p {
 		font-size: 0.9em;
 	}
-.nameimg {
-  margin: 20px auto;
-  display: block;
-}
-
-.nameimg .img{
-  width:60%;
-  height:auto;
-}
 
 .container {
 	max-width: 90%;
@@ -645,12 +615,6 @@ form textarea {
     display: table;
     margin:auto;
     max-width:460px}
-  
-.nameimg img{
-  margin: auto;
-  display: block;
-  width: 150px;
-}
   
 .solidworkscell {
     padding: 2px 2px;
