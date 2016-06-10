@@ -198,6 +198,28 @@ a:hover {
 	background-size: cover;
 }
 
+.projectsbar {
+  width: 100%;
+  margin:auto;
+}
+
+.projectsbar ul{
+    list-style-type: none;
+    font-weight: 600;
+    letter-spacing: .075em;
+    padding: 0;
+    font-size: 1.8em;
+}
+
+.projectsbar li {
+    display:inline;
+    padding:25px;
+}
+
+.projectsbar li:hover{
+    color:#666;
+}
+
 .navigation {
   position: fixed;
   top: 0;
@@ -237,11 +259,11 @@ a:hover {
   margin-left: 10px;
 }
 
-li a:hover:not(.active) {
+.navigation li a:hover:not(.active) {
     background-color: #333;
 }
 
-.active {
+.navigation .active {
     background-color: #c2c2a3;
 }
 
@@ -567,6 +589,14 @@ form textarea {
 	p {
 		font-size: 0.9em;
 	}
+  
+.projectsbar ul{
+    font-size: 1.5em;
+}  
+
+.projectsbar li {
+    padding:10px;
+}
 
 .container {
 	max-width: 90%;
@@ -721,6 +751,15 @@ form textarea {
 	p {
 		font-size: 0.8em;
 	}
+  
+.projectsbar ul{
+    font-size: 1.1em;
+}  
+
+.projectsbar li {
+    padding:0px;
+}  
+  
 .container {
 	max-width: 90%;
     margin:auto;
@@ -801,6 +840,14 @@ padding: 2px 2px;
 	p {
 		font-size: 0.7em;
 	}
+  
+.projectsbar ul{
+    font-size: 0.7em;
+}  
+
+.projectsbar li {
+    padding:0px;
+}  
   
 .container {
 	max-width: 90%;
