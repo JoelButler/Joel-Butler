@@ -637,4 +637,48 @@ form textarea {
 
 }
 
+@media only screen and (max-width: 650px) {
+.solidworkscell {
+    padding: 10px 10px;
+    width: 75px;
+    height: 75px;
+    font-size: 0.8em;
+}
+  
+  .autocadcell {
+     padding: 10px 10px;
+    width: 75px;
+    height: 75px;
+    font-size: 0.8em;
+}
+  
+.htmlcsscell {
+    padding: 10px 10px;
+    width: 75px;
+    height: 75px;
+    font-size: 0.8em;
+}
+
+.arduinocell {
+    padding: 10px 10px;
+    width: 75px;
+    height: 75px;
+    font-size: 0.8em;
+}
+  
+  .drawingcell {
+    padding: 10px 10px;
+    width: 75px;
+    height: 75px;
+    font-size: 0.8em;
+}
+  
+.woodworkcell {
+    padding: 10px 10px;
+    width: 75px;
+    height: 75px;
+    font-size: 0.8em;
+}
+}
+
 
