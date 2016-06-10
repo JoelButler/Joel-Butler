@@ -21,7 +21,7 @@ body{
     max-width:1400px}
 
 .solidworkscell {
-  background:url(../images/solidworks.jpg);
+  background:url(http://www.joel-butler.com/images/solidworks.jpg);
   background-size:     cover;
     background-repeat:   no-repeat;
     background-position: center center;
@@ -37,7 +37,7 @@ body{
 }
 
 .autocadcell {
-  background:url(../images/autocad.jpg);
+  background:url(http://www.joel-butler.com/images/autocad.jpg);
   background-size:     cover;
     background-repeat:   no-repeat;
     background-position: center center;
@@ -61,7 +61,7 @@ body{
 }
 
 .htmlcsscell {
-  background:url(../images/htmlcss.jpg);
+  background:url(http://www.joel-butler.com/images/htmlcss.jpg);
   background-size:     cover;
     background-repeat:   no-repeat;
     background-position: center center;
@@ -85,7 +85,7 @@ body{
 }
 
 .arduinocell {
- background:url(../images/arduino.jpg);
+ background:url(http://www.joel-butler.com/images/arduino.jpg);
   background-size:     cover;
     background-repeat:   no-repeat;
     background-position: center center;
@@ -101,7 +101,7 @@ body{
 }
 
 .drawingcell {
-  background:url(../images/drawing.jpg);
+  background:url(http://www.joel-butler.com/images/drawing.jpg);
   background-size:     cover;
     background-repeat:   no-repeat;
     background-position: center center;
@@ -117,7 +117,7 @@ body{
 }
 
 .woodworkcell {
-  background:url(../images/woodwork.jpg);
+  background:url(http://www.joel-butler.com/images/woodwork.jpg);
   background-size:     cover;
     background-repeat:   no-repeat;
     background-position: center center;
@@ -873,5 +873,3 @@ padding: 2px 2px;
     font-size: 0.7em;
 }
 }
-
-
