@@ -153,9 +153,7 @@ a:hover {
 }
 
 .nameimg .img{
-  margin: 20px auto;
-  display: block;
-  width:60%;
+  width:100%;
   height:auto;
 }
 
@@ -451,6 +449,16 @@ form textarea {
 }
 
 @media only screen and (max-width: 1400px) {
+.nameimg {
+  margin: 20px auto;
+  display: block;
+}
+
+.nameimg .img{
+  width:80%;
+  height:auto;
+}
+
 .container {
 	max-width: 85%;
     margin:auto;
@@ -518,7 +526,15 @@ form textarea {
 }
 
 @media only screen and (max-width: 1075px) {
-  
+.nameimg {
+  margin: 20px auto;
+  display: block;
+}
+
+.nameimg .img{
+  width:70%;
+  height:auto;
+}
 .container {
 	max-width: 85%;
     margin:auto;
@@ -598,6 +614,15 @@ form textarea {
 	p {
 		font-size: 0.9em;
 	}
+.nameimg {
+  margin: 20px auto;
+  display: block;
+}
+
+.nameimg .img{
+  width:60%;
+  height:auto;
+}
 
 .container {
 	max-width: 90%;
