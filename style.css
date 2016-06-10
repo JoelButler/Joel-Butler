@@ -600,13 +600,14 @@ form textarea {
     margin-top:0px;
 	}
 .container .inner {
-	margin: 0 16px;
+	margin: 0 32px;
     padding: 0;
 	max-width:750px;
 	}  
   
 .container .inner .content{
 	margin: 0 16px;
+    margin-top:50px;
 	padding: 0;
 	}
   
@@ -759,6 +760,7 @@ form textarea {
   
 .container .inner .content{
 	margin: 0 16px;
+    margin-top:40px;
 	padding: 0;
 	}
   
@@ -839,6 +841,7 @@ padding: 2px 2px;
   
 .container .inner .content{
 	margin: 0 16px;
+    margin-top:35px;
 	padding: 0;
 	}
   
