@@ -150,7 +150,13 @@ a:hover {
 .nameimg {
   margin: 20px auto;
   display: block;
-  width: 300px;
+}
+
+.nameimg .img{
+  margin: 20px auto;
+  display: block;
+  width:60%;
+  height:auto;
 }
 
 .home{
@@ -615,7 +621,7 @@ form textarea {
     margin:auto;
     max-width:460px}
   
-.nameimg {
+.nameimg img{
   margin: auto;
   display: block;
   width: 150px;
