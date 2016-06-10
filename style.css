@@ -637,48 +637,70 @@ form textarea {
 
 }
 
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 400px) {
+  
+.container {
+	max-width: 90%;
+    margin:auto;
+    margin-top:0px;
+	}
+.container .inner {
+	margin: 0 16px;
+    padding: 0;
+	max-width:298px;
+	}  
+  
+.container .inner .content{
+	margin: 0 16px;
+	padding: 0;
+	}
+  
+.tablecontainer 
+  {
+    display: table;
+    margin:auto;
+    max-width:255px}
+  
+  
 .solidworkscell {
-    padding: 10px 10px;
+    padding: 2px 2px;
     width: 75px;
     height: 75px;
-    font-size: 0.8em;
+    font-size: 0.7em;
 }
   
-  .autocadcell {
-     padding: 10px 10px;
+.autocadcell {
+    padding: 2px 2px;
     width: 75px;
     height: 75px;
-    font-size: 0.8em;
+    font-size: 0.7em;
 }
   
 .htmlcsscell {
-    padding: 10px 10px;
+    padding: 2px 2px;
     width: 75px;
     height: 75px;
-    font-size: 0.8em;
+    font-size: 0.7em;
 }
 
 .arduinocell {
-    padding: 10px 10px;
+    padding: 2px 2px;
     width: 75px;
     height: 75px;
-    font-size: 0.8em;
+    font-size: 0.7em;
 }
   
-  .drawingcell {
-    padding: 10px 10px;
+.drawingcell {
+    padding: 2px 2px;
     width: 75px;
     height: 75px;
-    font-size: 0.8em;
+    font-size: 0.7em;
 }
   
 .woodworkcell {
-    padding: 10px 10px;
+    padding: 2px 2px;
     width: 75px;
     height: 75px;
-    font-size: 0.8em;
+    font-size: 0.7em;
 }
 }
-
-
