@@ -301,7 +301,7 @@ h2 {
   text-align:left;
 }
 h3 {
-  font-size: 1.2em;
+  font-size: 1.6em;
   text-align: left;
 }
 p {
@@ -486,7 +486,7 @@ form textarea {
 		font-size: 1.5em;
 	}
     h3 {
-        font-size:1em;
+        font-size:1.2em;
     }
 	p {
 		font-size: 0.9em;
@@ -649,7 +649,7 @@ form textarea {
 .container .inner .content{
 	margin: 0 8px;
     margin-top:50px;
-  margin-bottom:35px;
+    margin-bottom:35px;
 	padding: 0;
 	}
 }
