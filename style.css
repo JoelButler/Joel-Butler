@@ -106,6 +106,58 @@ background:url(http://www.joel-butler.com/images/gears.JPG);
   line-height:100px;
 }
 
+.essocell {
+background:url(http://www.joel-butler.com/images/essoioco.jpg);
+  background-size:     cover;
+  background-repeat:   no-repeat;
+  background-position: center center;
+  border: none;
+  height: 50px;
+  font-size: 1.8em;
+  font-weight:600;
+  text-align:center;
+  line-height:50px;
+}
+
+.swisswatercell {
+background:url(http://www.joel-butler.com/images/swisswater.jpg);
+  background-size:     cover;
+  background-repeat:   no-repeat;
+  background-position: center center;
+  border: none;
+  height: 50px;
+  font-size: 1.8em;
+  font-weight:600;
+  text-align:center;
+  line-height:50px;
+}
+
+.bchydrocell {
+background:url(http://www.joel-butler.com/images/strathcona.jpg);
+  background-size:     cover;
+  background-repeat:   no-repeat;
+  background-position: center center;
+  border: none;
+  height: 50px;
+  font-size: 1.8em;
+  font-weight:600;
+  text-align:center;
+  line-height:50px;
+}
+
+.pctcell {
+background:url(http://www.joel-butler.com/images/pct.JPG);
+  background-size:     cover;
+  background-repeat:   no-repeat;
+  background-position: center center;
+  border: none;
+  height: 50px;
+  font-size: 1.8em;
+  font-weight:600;
+  text-align:center;
+  line-height:50px;
+}
+
 .gutter {
     display: table-cell;
     width: 25px; }
@@ -566,10 +618,10 @@ form textarea {
 		font-size: 1.2em;
 	}
 	h2 {
-		font-size: 0.9em;
+		font-size: 0.7em;
 	}
     h3 {
-        font-size:0.8em;
+        font-size:0.6em;
     }
 	p {
 		font-size: 0.7em;
