@@ -20,122 +20,90 @@ body{
   width: 70%;
 }
 
-.tablecontainer 
-  {
-    display: table;
-    margin:auto;
-    max-width:1400px}
-
 .solidworkscell {
-  background:url(http://www.joel-butler.com/images/solidworks.jpg);
+  background:url(http://www.joel-butler.com/images/doublegear.JPG);
   background-size:     cover;
-    background-repeat:   no-repeat;
-    background-position: center center;
-    display: table-cell;
-    border: none;
-    padding: 30px 30px;
-    width: 200px;
-    height: 200px;
-    font-size: 1.8em;
+  background-repeat:   no-repeat;
+  background-position: center center;
+  border: none;
+  height: 100px;
+  font-size: 1.8em;
   font-weight:600;
-    text-align:center;
-	vertical-align: middle;
+  text-align:center;
+  line-height:100px;
 }
 
 .autocadcell {
-  background:url(http://www.joel-butler.com/images/autocad.jpg);
+background:url(http://www.joel-butler.com/images/lifting.jpg);
   background-size:     cover;
-    background-repeat:   no-repeat;
-    background-position: center center;
-    display: table-cell;
-    border: none;
-    padding: 30px 30px;
-    width: 200px;
-    height: 200px;
-    font-size: 1.8em;
+  background-repeat:   no-repeat;
+  background-position: center center;
+  border: none;
+  height: 100px;
+  font-size: 1.8em;
   font-weight:600;
-    text-align:center;
-	vertical-align: middle;
+  text-align:center;
+  line-height:100px;
 }
 
 .autocadcell a:link{
-  color:#555;
+  color:#333;
 }
 
 .autocadcell a:hover{
-  color:#333;
+  color:#c2c2a3;
 }
 
 .htmlcsscell {
-  background:url(http://www.joel-butler.com/images/htmlcss.jpg);
+background:url(http://www.joel-butler.com/images/htmlcss.JPG);
   background-size:     cover;
-    background-repeat:   no-repeat;
-    background-position: center center;
-    display: table-cell;
-    border: none;
-    padding: 30px 30px;
-    width: 200px;
-    height: 200px;
-    font-size: 1.8em;
+  background-repeat:   no-repeat;
+  background-position: center center;
+  border: none;
+  height: 100px;
+  font-size: 1.8em;
   font-weight:600;
-    text-align:center;
-	vertical-align: middle;
-}
-
-.htmlcsscell a:link{
-  color:#555;
-}
-
-.htmlcsscell a:hover{
-  color:#333;
+  text-align:center;
+  line-height:100px;
 }
 
 .arduinocell {
- background:url(http://www.joel-butler.com/images/arduino.jpg);
+background:url(http://www.joel-butler.com/images/arduinouno.jpg);
   background-size:     cover;
-    background-repeat:   no-repeat;
-    background-position: center center;
-    display: table-cell;
-    border: none;
-    padding: 30px 30px;
-    width: 200px;
-    height: 200px;
-    font-size: 1.8em;
+  background-repeat:   no-repeat;
+  background-position: center center;
+  border: none;
+  height: 100px;
+  font-size: 1.8em;
   font-weight:600;
-    text-align:center;
-	vertical-align: middle;
+  text-align:center;
+  line-height:100px;
 }
 
 .drawingcell {
-  background:url(http://www.joel-butler.com/images/drawing.jpg);
+background:url(http://www.joel-butler.com/images/chameleon.jpg);
   background-size:     cover;
-    background-repeat:   no-repeat;
-    background-position: center center;
-    display: table-cell;
-    border: none;
-    padding: 30px 30px;
-    width: 200px;
-    height: 200px;
-    font-size: 1.8em;
+  background-repeat:   no-repeat;
+  background-position: center center;
+  border: none;
+  height: 100px;
+  font-size: 1.8em;
   font-weight:600;
-    text-align:center;
-	vertical-align: middle;
+  text-align:center;
+  line-height:100px;
 }
 
 .woodworkcell {
-  background:url(http://www.joel-butler.com/images/woodwork.jpg);
+background:url(http://www.joel-butler.com/images/gears.JPG);
   background-size:     cover;
-    background-repeat:   no-repeat;
-    background-position: center center;
-    display: table-cell;
-    border: none;
-    padding: 30px 30px;
-    width: 200px;
-    height: 200px;
-    font-size: 1.8em;
+  background-repeat:   no-repeat;
+  background-position: center center;
+  border: none;
+  height: 100px;
+  font-size: 1.8em;
   font-weight:600;
-    text-align:center;
-	vertical-align: middle;
+  text-align:center;
+  line-height:100px;
 }
 
 .gutter {
@@ -148,7 +116,7 @@ a:link {
     text-decoration: none;
 }
 a:hover {
-    color: #333;
+    color: #c2c2a3;
     background-color: transparent;
     text-decoration: none;
 }
@@ -196,28 +164,6 @@ a:hover {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-}
-
-.projectsbar {
-  width: 100%;
-  margin:auto;
-}
-
-.projectsbar ul{
-    list-style-type: none;
-    font-weight: 600;
-    letter-spacing: .075em;
-    padding: 0;
-    font-size: 1.8em;
-}
-
-.projectsbar li {
-    display:inline;
-    padding:25px;
-}
-
-.projectsbar li:hover{
-    color:#666;
 }
 
 .navigation {
@@ -458,54 +404,6 @@ form textarea {
 	margin: 0 45px;
 	padding: 0;
 	}
-  
-.tablecontainer 
-  {
-    display: table;
-    margin:auto;
-    max-width:675px}
-  
-.solidworkscell {
-    padding: 20px 20px;
-    width: 175px;
-    height: 100px;
-    font-size: 1.7em;
-}
-  
-  .autocadcell {
-    padding: 20px 20px;
-    width: 175px;
-    height: 175px;
-    font-size: 1.7em;
-}
-  
-.htmlcsscell {
-    padding: 20px 20px;
-    width: 175px;
-    height: 175px;
-    font-size: 1.7em;
-}
-
-.arduinocell {
-    padding: 20px 20px;
-    width: 175px;
-    height: 175px;
-    font-size: 1.7em;
-}
-  
-  .drawingcell {
-    padding: 20px 20px;
-    width: 175px;
-    height: 175px;
-    font-size: 1.7em;
-}
-  
-.woodworkcell {
-    padding: 20px 20px;
-    width: 175px;
-    height: 175px;
-    font-size: 1.7em;
-}
 }
 
 @media only screen and (max-width: 1075px) {
@@ -526,54 +424,6 @@ form textarea {
 	margin: 0 30px;
     margin-top:50px;
   padding: 0;}
-  
-.tablecontainer 
-  {
-    display: table;
-    margin:auto;
-    max-width:675px}
-  
-.solidworkscell {
-    padding: 20px 20px;
-    width: 175px;
-    height: 100px;
-    font-size: 1.7em;
-}
-  
-  .autocadcell {
-    padding: 20px 20px;
-    width: 175px;
-    height: 175px;
-    font-size: 1.7em;
-}
-  
-.htmlcsscell {
-    padding: 20px 20px;
-    width: 175px;
-    height: 175px;
-    font-size: 1.7em;
-}
-
-.arduinocell {
-    padding: 20px 20px;
-    width: 175px;
-    height: 175px;
-    font-size: 1.7em;
-}
-  
-  .drawingcell {
-    padding: 20px 20px;
-    width: 175px;
-    height: 175px;
-    font-size: 1.7em;
-}
-  
-.woodworkcell {
-    padding: 20px 20px;
-    width: 175px;
-    height: 175px;
-    font-size: 1.7em;
-}
 }
 
 @media only screen and (max-width: 850px) {
@@ -614,72 +464,6 @@ form textarea {
     margin-top:50px;
 	padding: 0;
 	}
-  
-.tablecontainer 
-  {
-    display: table;
-    margin:auto;
-    max-width:460px}
-  
-.solidworkscell {
-    padding: 2px 2px;
-    width: 140px;
-    height: 140px;
-    font-size: 1.4em;
-}
-  
-.autocadcell {
-    padding: 2px 2px;
-    width: 140px;
-    height: 140px;
-    font-size: 1.4em;
-}
-  
-.htmlcsscell {
-    padding: 2px 2px;
-    width: 140px;
-    height: 140px;
-    font-size: 1.4em;
-}
-
-.arduinocell {
-    padding: 2px 2px;
-    width: 140px;
-    height: 140px;
-    font-size: 1.4em;
-}
-  
-.drawingcell {
-    padding: 2px 2px;
-    width: 140px;
-    height: 140px;
-    font-size: 1.4em;
-}
-  
-.woodworkcell {
-    padding: 2px 2px;
-    width: 140px;
-    height: 140px;
-    font-size: 1.4em;
-}
-  
-    .article {
-    margin-top: 24;
-	margin-bottom: 24px;
-	max-width: 100%;
-	width: 100%;
-	text-align: center;
-	display: table;
-    border-top-style: solid;
-    border-bottom-style:solid;
-    border-color:white;
-    border-width:2px;
-    background: rgba(0, 0, 0, 0.5);
-}
-  
-.article .inner {
-	display: table-row;  
-	text-shadow: 0px 0px 12px rgba(0, 0, 0, .2);
 }
   
 	.navigation ul {
@@ -776,55 +560,6 @@ form textarea {
     margin-top:40px;
 	padding: 0;
 	}
-  
-.tablecontainer 
-  {
-    display: table;
-    margin:auto;
-    max-width:335px}
-  
-  
-.solidworkscell {
-    padding: 2px 2px;
-    width: 100px;
-    height: 100px;
-    font-size: 0.9em;
-}
-  
-.autocadcell {
-    padding: 2px 2px;
-    width: 100px;
-    height: 100px;
-    font-size: 0.9em;
-}
-  
-.htmlcsscell {
-    padding: 2px 2px;
-    width: 100px;
-    height: 100px;
-    font-size: 0.9em;
-}
-
-.arduinocell {
-padding: 2px 2px;
-    width: 100px;
-    height: 100px;
-    font-size: 0.9em;
-}
-  
-.drawingcell {
-padding: 2px 2px;
-    width: 100px;
-    height: 100px;
-    font-size: 0.9em;
-}
-  
-.woodworkcell {
-padding: 2px 2px;
-    width: 100px;
-    height: 100px;
-    font-size: 0.9em;
-}
 }
 
 @media only screen and (max-width: 400px) {
@@ -865,55 +600,6 @@ padding: 2px 2px;
     margin-top:35px;
 	padding: 0;
 	}
-  
-.tablecontainer 
-  {
-    display: table;
-    margin:auto;
-    max-width:255px}
-  
-  
-.solidworkscell {
-    padding: 2px 2px;
-    width: 75px;
-    height: 75px;
-    font-size: 0.7em;
-}
-  
-.autocadcell {
-    padding: 2px 2px;
-    width: 75px;
-    height: 75px;
-    font-size: 0.7em;
-}
-  
-.htmlcsscell {
-    padding: 2px 2px;
-    width: 75px;
-    height: 75px;
-    font-size: 0.7em;
-}
-
-.arduinocell {
-    padding: 2px 2px;
-    width: 75px;
-    height: 75px;
-    font-size: 0.7em;
-}
-  
-.drawingcell {
-    padding: 2px 2px;
-    width: 75px;
-    height: 75px;
-    font-size: 0.7em;
-}
-  
-.woodworkcell {
-    padding: 2px 2px;
-    width: 75px;
-    height: 75px;
-    font-size: 0.7em;
-}
 }
 
 
