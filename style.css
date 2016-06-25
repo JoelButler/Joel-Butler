@@ -206,7 +206,7 @@ a:hover {
 }
 
 .navigation li a:hover:not(.active) {
-    background-color: #333;
+    background-color:rgba(0, 0, 0, 0.4);
 }
 
 .navigation .active {
