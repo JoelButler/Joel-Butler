@@ -18,6 +18,8 @@ fieldset{
   border:none;
 }
 
+.robotic { display: none; }
+
 .nameimg img{
   margin: auto;
   display: block;
@@ -415,19 +417,19 @@ nav ul li.icon{
 }
 
 .btn {
-  font-size: 1.0625em;
+  font-size: 1.1em;
   display: inline-block;
-  padding: 0.6em 5em;
-  margin: 1.5em 0 0;
+  padding: 0.75em;
   color: #fff;
   border-width: 0 0 0 0;
+  width: 100px;
   border-bottom: 2px solid;
-  background-color: #fff;
-  border-bottom-color: #fff;
   font-weight: 600;
 }
 
 .btn.submit {
+  width:250px;
+  text-align: center;
   background-color: black;
   border-bottom-color: #c2c2a3;
 }
