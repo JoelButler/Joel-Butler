@@ -158,9 +158,57 @@ background:url(http://www.joel-butler.com/images/pct.JPG);
   line-height:50px;
 }
 
-.gutter {
-    display: table-cell;
-    width: 25px; }
+.adventurecell {
+background:url(http://www.joel-butler.com/images/adventure.jpg);
+  background-size:     cover;
+  background-repeat:   no-repeat;
+  background-position: center center;
+  border: none;
+  height: 50px;
+  font-size: 1.8em;
+  font-weight:600;
+  text-align:center;
+  line-height:50px;
+}
+
+.artcell {
+background:url(http://www.joel-butler.com/images/art.jpg);
+  background-size:     cover;
+  background-repeat:   no-repeat;
+  background-position: center center;
+  border: none;
+  height: 50px;
+  font-size: 1.8em;
+  font-weight:600;
+  text-align:center;
+  line-height:50px;
+}
+
+.cookingcell {
+background:url(http://www.joel-butler.com/images/cooking.jpg);
+  background-size:     cover;
+  background-repeat:   no-repeat;
+  background-position: center center;
+  border: none;
+  height: 50px;
+  font-size: 1.8em;
+  font-weight:600;
+  text-align:center;
+  line-height:50px;
+}
+
+.technicalcell {
+background:url(http://www.joel-butler.com/images/technical.jpg);
+  background-size:     cover;
+  background-repeat:   no-repeat;
+  background-position: center center;
+  border: none;
+  height: 50px;
+  font-size: 1.8em;
+  font-weight:600;
+  text-align:center;
+  line-height:50px;
+}
 
 a:link {
     color: white;
@@ -618,7 +666,7 @@ form textarea {
 		font-size: 2em;
 	}
 	h2 {
-		font-size: 1em;
+		font-size: 0.7em;
 	}
     h3 {
         font-size:0.7em;
