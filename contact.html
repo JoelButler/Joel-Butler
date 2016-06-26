@@ -39,38 +39,26 @@
       <div class="row body">
       <form name="contactform" method="post" action="submit.php">
         <fieldset>
-        <ul>
-          <li>
             <h3>
-              <label for="first_name">First name *</label>
+              <label>Your name *</label>
               <input name="name" type="text" id="name"/>
             </h3>
             <h3>
-              <label for="last_name">Last name</label>
-              <input name="last_name" type="text" id="last_name"/>      
-            </h3>
-          </li>
-          <li>
-            <h3>
-              <label for="email">Email * </label>
+              <label>Email * </label>
               <input name="email" type="text" id="email"/>
             </h3>
-          </li>        
-          <li>
             <h3>
-            <label for="comments">Comments *</label>
-            <textarea cols="46" rows="8" name="comments" id="comments"></textarea>
+            <label>Comments *</label>
+            <textarea cols="46" rows="8" name="message" id="message"></textarea>
             </h3>
-          </li>
               <!-- The following field is for robots only, invisible to humans: -->
                <p class="robotic" id="pot">
                 <label>If you're human leave this blank:</label>
                 <input name="robotest" type="text" id="robotest" class="robotest" />
-            </p><br>
-          <li>
+            </p>
+            <h3><center>
             <input type="submit" value="Send Message" class="btn submit"/>
-          </li>
-        </ul>
+          </center></h3>
         </fieldset>
       </form>    
         <br>
