@@ -32,39 +32,45 @@
 	      <h1>Contact Me</h1>
         <hr>
         <br>
-        <h3><center> Fill out the form below to contact me!</center></h3>
+        <h2><center> Fill out the form below to contact me!</center></h2>
         <br>
         <div class="formcontainer">
       <div class="contactform">
       <div class="row body">
-      <form action="MAILTO:joel.c.butler@gmail.com" method="post" enctype="text/plain">
+      <form method="post" action="">
+        <fieldset>
         <ul>
           <li>
             <p class="left">
               <label for="first_name">First name *</label>
-              <input type="text" name="first_name"/>
+              <input name="name" type="text" id="name"/>
             </p>
             <p class="pull-right">
               <label for="last_name">Last name</label>
-              <input type="text" name="last_name"/>      
+              <input name="last_name" type="text" id="last_name"/>      
             </p>
           </li>
 
           <li>
             <p>
               <label for="email">Email * </label>
-              <input type="email" name="email"/>
+              <input name="email" type="text" id="email"/>
             </p>
           </li>        
           <li>
             <label for="comments"><h3>Comments *</h3></label>
-            <textarea cols="46" rows="8" name="comments"></textarea>
+            <textarea cols="46" rows="8" name="comments" id="comments"></textarea>
           </li>
-
+              <!-- The following field is for robots only, invisible to humans: -->
+               <p class="robotic" id="pot">
+                <label>If you're human leave this blank:</label>
+                <input name="robotest" type="text" id="robotest" class="robotest" />
+            </p>
           <li>
-            <input class="btn submit" type="submit" value="Submit" />
+            <input class="btn submit" value="Send Message" class="Submit" />
           </li>
         </ul>
+        </fieldset>
       </form>    
         <br>
         <br>
