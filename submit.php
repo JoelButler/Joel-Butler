@@ -6,8 +6,8 @@
   $robotest = $_POST['url'];
 
 
-  $to = 'contact@vancouvergranola.com';
-  $subject = 'Vancouver Granola Contact Submission';
+  $to = 'joel.c.butler@gmail.com';
+  $subject = 'Contact Joel Butler';
 
 
   // prepare email body text
