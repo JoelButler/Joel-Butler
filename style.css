@@ -112,47 +112,7 @@ background:url(http://www.joel-butler.com/images/gears.JPG);
   line-height:100px;
 }
 
-.essocell {
-background:url(http://www.joel-butler.com/images/essoioco.jpg);
-  background-size:     cover;
-  background-repeat:   no-repeat;
-  background-position: center center;
-  border: none;
-  height: 50px;
-  font-size: 1.8em;
-  font-weight:600;
-  text-align:center;
-  line-height:50px;
-}
-
-.swisswatercell {
-background:url(http://www.joel-butler.com/images/swisswater.jpg);
-  background-size:     cover;
-  background-repeat:   no-repeat;
-  background-position: center center;
-  border: none;
-  height: 50px;
-  font-size: 1.8em;
-  font-weight:600;
-  text-align:center;
-  line-height:50px;
-}
-
-.bchydrocell {
-background:url(http://www.joel-butler.com/images/strathcona.jpg);
-  background-size:     cover;
-  background-repeat:   no-repeat;
-  background-position: center center;
-  border: none;
-  height: 50px;
-  font-size: 1.8em;
-  font-weight:600;
-  text-align:center;
-  line-height:50px;
-}
-
-.pctcell {
-background:url(http://www.joel-butler.com/images/pct.JPG);
+.fieldworkcell {
   background-size:     cover;
   background-repeat:   no-repeat;
   background-position: center center;
