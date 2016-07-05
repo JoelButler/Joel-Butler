@@ -14,12 +14,6 @@ body{
 	font-family: 'Slabo 27px', serif;	
 }
 
-fieldset{
-  border:none;
-}
-
-.robotic { display: none; }
-
 .nameimg img{
   margin: auto;
   display: block;
@@ -449,6 +443,7 @@ form textarea {
 .container .inner .content{
 	margin: 0 30px;
     margin-top:50px;
+    margin-bottom:50px;
   padding: 0;}
 }
 
@@ -487,6 +482,7 @@ form textarea {
   
 .container .inner .content{
 	margin: 0 30px;
+    margin-bottom:50px;
     margin-top:50px;
 	padding: 0;
 }
@@ -571,11 +567,13 @@ form textarea {
   
 .container {
 	max-width: 90%;
+    margin-bottom:50px;
     margin:auto;
     margin-top:0px;
 	}
 .container .inner {
 	margin: 0 16px;
+    margin-bottom:50px;
     padding: 0;
 	max-width:510px;
 	}  
@@ -583,6 +581,7 @@ form textarea {
 .container .inner .content{
 	margin: 0 30px;
     margin-top:40px;
+    margin-bottom:50px;
 	padding: 0;
 	}
 }
