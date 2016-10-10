@@ -34,20 +34,18 @@
         <h3>I have been interested in building a computer numeric control (CNC) machine, or 3D printer for some time now. But, because I didn’t want to spend a ton of money, I thought I would keep it simple and make a CNC etch-a-sketch.</h3>
         <h3>It’s basically a crappy 2D CNC machine and though this has been done before, I thought it was a neat project and wanted to have a go at it myself. </h3>
         <h3>The main goals for this project were to learn about G-Code and CNC machines with the idea that I can transfer these skills to more complex situations in the future.</h3>
-        <h3>
-The electrical components for this project included: Arduino UNO, GRBL shield, 2 stepper motor drivers, 2 stepper motors, and a power supply. Really not much to it! Not much of any Arduino coding was required, as all I had to do was load an open source <a href="https://github.com/grbl/grbl">GRBL </a> g-code-parser and CNC milling controller onto the Arduino microcontroller.This GRBL program sends G-Code instructions to the stepper motors via a clean interface. So, once I had this working, really all I needed was a mechanical connection to the etch-a-sketch, and some G-Code. </h3>
-
-<h3>I wanted to keep the mechanical component as simple as possible so I built a small wooden frame. The etch-a-sketch is held in place by a plywood box and the two stepper motors are positioned concentrically over the turn knobs. The stepper motor shafts are connected to the knobs with two small motor couplings and a couple of tapped screws.</h3>
-
+        <iframe width="75%" height="315"
+src="https://www.youtube.com/embed/sYGQEmTzvks">
+</iframe>
+        
+<h3>The electrical components for this project include: Arduino UNO, GRBL shield, two stepper motor drivers, two stepper motors, and a power supply. The open source <a href="https://github.com/grbl/grbl">GRBL </a> g-code-parser was programmed onto the Arduino microcontroller.This GRBL program sends G-Code instructions to the stepper motors.</h3>
+<h3>Two small couplings were used to connect the stepper motors to the etch-a-sketch mechanially. Furthermore, the etch-a-sketch is held in place wood with the two stepper motors positioned concentrically over the turn knobs.</h3>
 <h3>At this point, I punched some G-Code into the GRBL interpreter and off it went! This was pretty exciting. Though this project doesn’t sound very complex, there was many small obstacles I had to overcome to get to this point so needless to say, I was thrilled.</h3>
-
-<h3>So great. I can draw lines and boxes. But how the heck was I going to get a complex image to print on my etch-a-sketch? I looked up various G-Code softwars and thought the best would be to keep it simple. I stumbled upon InkScape which is an open source graphic design software. This is an extremely powerful tool that can be used to create very complex vector images. Furthermore, someone with very good programming skills created a G-Code plugin which creates a G-Code tool path based on the vector image path.</h3> 
-
+<a href="../images/Stormtrooper.JPG"><img style="margin: 20px 20px 20px 20px;" src="http://www.joel-butler.com/images/Stormtrooper.JPG" alt="Storm Trooper Etch-a-sketch Drawing" width="80%" height="auto"></a>       
+<h3>While searching for basic G-code software, I stumbled upon InkScape which is an open source graphic design software. This is an extremely powerful tool that can be used to create very complex vector images. It also has various G-Code tools which can create paths based on the vector image.</h3> 
 <h3>Stencils worked best for this project so I chose some basic black and white images from the internet. The image is traced and you are left with a simple outline of the design. Using the InkScape tools, some G-Code can be generated and then its ready to print. The G-Code is modified for the Arduino and sent to the stepper motors.</h3>
-
 <h3>This is the crappiest printer I have ever seen. It’s slow, loud, and inaccurate. But, it was so funny to see it rip away on the etch-a-sketch. The knobs and design of the etch-a-sketch create some backlash issues reducing the quality, but it’s very cool none the less. </h3>
-
-<h3>The limitations seem to be the way the tool path is selected. I’m sure if I dumped a lot of time into creating a single line vector, that I could produce some amazing results, however for now, I will be satisfied with the odd line cutting directly through the print.  In the future, I plan to use what I have learned with this project to build a more complex, more precise, 3D CNC milling machine.
+<h3>The limitations seem to be the way the tool path is created. Because the z-axis is non existant, the tool cannot move smoothly to a new starting position. So lines are sometimes drawn across the entire image. I’m sure if I dumped a lot of time into creating a single line vector, that I could produce some amazing results, however for now, I'm satisfied with the results.  In the future, I plan to use what I have learned with this project to build a more complex, more precise, 3D CNC milling machine.
 </h3><hr><br>
       <h3><center>Resume available upon request</h3>
         <br><br>
